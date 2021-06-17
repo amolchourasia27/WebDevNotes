@@ -1,2 +1,3 @@
 # WebDevNotes
-This repo consists of notes related to frontend WebDev 
+This reposirory will include all the notes for frontend web  development 
+

@@ -18,7 +18,7 @@ It divides up the row to as many sections as they need  in order to distribute a
 now if we have two divs with class **col** inside a row then both will take 50% of screen 
 
 if we add third div like this
-```
+```html
  <div class="row">
                 <div class="col" style="background-color: red; border: 1px solid;">col</div>
                 <div class="col" style="background-color: red; border: 1px solid;">col</div>
@@ -30,7 +30,7 @@ Now wht if i want to add the colum that only took up half of the width on the sc
 
 Now we create a new Div just below the previous one for the sake of reference  
 
-``` 
+```html
 <div class="row">
 <div class="col-6" style="background-color: green; border: 1px solid;">col-6</div>
 </div>
@@ -51,7 +51,7 @@ this means that
 
 -12/1 =12 or only 1part of the 12 sized row
 
-```
+```html
 <div class="row">
                 <div class="col-6" style="background-color: green; border: 1px solid;">col-6</div>
                 <div class="col-3" style="background-color: green; border: 1px solid;">col-6</div>
@@ -73,14 +73,14 @@ The responsive colum have a class of  "col-md-6" in this (md) defines the device
 
 **col-md-6** stands for we should have **six** units **colum** on any size from **medium** to upwards but anything **smaller** than medium will take up the **full width**
 
-```
+```html
 <div class="row">
                 <div class="col-md-6" style="background-color: blue; border: 1px solid;">col-md-6</div>
                 <div class="col-md-6" style="background-color: blue; border: 1px solid;">col-md-6</div>
 </div>
 ```
 Your final code must look like this
-```
+```html
             <div class="row">
                 <div class="col" style="background-color: red; border: 1px solid;">col</div>
                 <div class="col" style="background-color: red; border: 1px solid;">col</div>
@@ -100,7 +100,7 @@ Your final code must look like this
 ```
 
 Now if we delete
-```
+```html
                 <div class="col-2" style="background-color: green; border: 1px solid;">col-6</div>
                 <div class="col-1" style="background-color: green; border: 1px solid;">col-6</div>
 ```
@@ -109,7 +109,8 @@ And change green col-3 to col-6
 
 **then we end up having**
 
-``` <section id="GridSystem">
+``` html
+<section id="GridSystem">
             <div class="row">
                 <div class="col" style="background-color: red; border: 1px solid;">col</div>
                 <div class="col" style="background-color: red; border: 1px solid;">col</div>
@@ -147,7 +148,7 @@ so **12/4 = 3** and we can specify screen size by keyword **lg** and 3
 
 and change all the divs to this format
 
-```
+```html
             <div class="row">
                 <div class="col-lg-3" style="background-color: blue; border: 1px solid;">col-lg-3</div>
                 <div class="col-lg-3" style="background-color: blue; border: 1px solid;">col-lg-3</div>
@@ -168,7 +169,8 @@ so we add another rule in blue col which is--
 **col-md-4**
 
 Now our code must look like 
-```            <div class="row">
+```html
+<div class="row">
                 <div class="col-lg-3 col-md-4" style="background-color: blue; border: 1px solid;">col-lg-3</div>
                 <div class="col-lg-3 col-md-4" style="background-color: blue; border: 1px solid;">col-lg-3</div>
                 <div class="col-lg-3 col-md-4" style="background-color: blue; border: 1px solid;">col-lg-3</div>
@@ -187,7 +189,7 @@ so we add another rule in blue col which is--
 
 **col-sm-6**
 Final code must look like
-```
+```html
             <div class="row">
                 <div class="col-lg-3 col-md-4 col-sm-6" style="background-color: blue; border: 1px solid;">col-lg-3</div>
                 <div class="col-lg-3 col-md-4 col-sm-6" style="background-color: blue; border: 1px solid;">col-lg-3</div>
